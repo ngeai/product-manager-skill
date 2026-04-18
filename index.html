@@ -1,0 +1,929 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PM Skills Playground</title>
+    <meta
+      name="description"
+      content="把产品经理进阶学习方案整理成一个适合新手学习、也能直接复制到项目里的轻量网站。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero" id="top">
+        <nav class="topbar">
+          <a class="brand" href="#top">
+            <span class="brand-mark">PM</span>
+            <span class="brand-text">
+              <strong>Skills Playground</strong>
+              <small>给产品经理和短视频创作者的入门站</small>
+            </span>
+          </a>
+          <div class="topbar-links">
+            <a href="#quickstart">快速开始</a>
+            <a href="#path">学习路线</a>
+            <a href="#modules">能力模块</a>
+            <a href="#creator-lab">创作方法</a>
+            <a href="#scenarios">项目模板</a>
+          </div>
+        </nav>
+
+        <section class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">AI Product Learning Kit</p>
+            <h1>新手也能快速学懂产品与短视频方法，并把模板直接用进项目。</h1>
+            <p class="hero-text">
+              这个网站只做三件事：帮你看懂核心框架、找到对应模板、马上开始做事或做内容。
+            </p>
+
+            <div class="hero-ribbon" aria-label="hero-highlights">
+              <span>看懂框架</span>
+              <span>找到模板</span>
+              <span>马上开工</span>
+            </div>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#quickstart">3 分钟上手</a>
+              <a class="button button-secondary" href="#scenarios">直接找模板</a>
+            </div>
+
+            <div class="hero-lanes">
+              <article class="lane-card">
+                <p class="lane-label">适合谁</p>
+                <h3>第一次系统学 PM 或做短视频的人</h3>
+                <p>如果你总觉得概念多、资料散，这里会把常见问题整理成能直接理解的模块。</p>
+              </article>
+              <article class="lane-card">
+                <p class="lane-label">能得到什么</p>
+                <h3>常见工作直接套模板</h3>
+                <p>访谈、PRD、数据分析、选题、脚本、复盘这些高频场景，都能直接复制使用。</p>
+              </article>
+              <article class="lane-card">
+                <p class="lane-label">怎么开始</p>
+                <h3>选一个真实需求或选题先练</h3>
+                <p>别先背理论，先拿手头需求或内容选题套一个模板，再回来补框架，学习会更快。</p>
+              </article>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <div class="hero-stack">
+              <article class="panel-card panel-card-main">
+                <p class="panel-title">先这样用</p>
+                <div class="panel-track">
+                  <article class="track-card">
+                    <span class="track-step">Step 1</span>
+                    <strong>先选一个真实任务</strong>
+                    <p>比如一个需求、一次复盘或一份 PRD。</p>
+                  </article>
+                  <article class="track-card">
+                    <span class="track-step">Step 2</span>
+                    <strong>再找对应模块</strong>
+                    <p>先分清是发现、战略、执行、分析还是增长问题。</p>
+                  </article>
+                  <article class="track-card">
+                    <span class="track-step">Step 3</span>
+                    <strong>最后让 AI 帮你起草</strong>
+                    <p>AI 给结构和草稿，你负责判断和取舍。</p>
+                  </article>
+                </div>
+                <div class="panel-note">
+                  核心原则只有一句：AI 是副驾驶，不是替你决策的人。
+                </div>
+              </article>
+
+              <article class="panel-card panel-card-side">
+                <p class="panel-title">你可以直接做</p>
+                <ul class="side-list">
+                  <li>新人先看“快速开始”</li>
+                  <li>做需求的人直接去“项目模板”</li>
+                  <li>做短视频的人先看“创作”模块</li>
+                  <li>带项目的人优先看“战略”“执行”“增长”</li>
+                </ul>
+              </article>
+            </div>
+          </aside>
+        </section>
+      </header>
+
+      <main>
+        <section class="bridge-strip" aria-label="site-positioning">
+          <article class="bridge-card">
+            <span class="bridge-index">01</span>
+            <h3>看得懂</h3>
+            <p>把复杂框架拆成新手能理解的语言。</p>
+          </article>
+          <article class="bridge-card">
+            <span class="bridge-index">02</span>
+            <h3>用得上</h3>
+            <p>每个模块都告诉你该解决什么问题、先做什么。</p>
+          </article>
+          <article class="bridge-card">
+            <span class="bridge-index">03</span>
+            <h3>能直接抄</h3>
+            <p>高频场景都做成模板，复制后补背景就能开始。</p>
+          </article>
+        </section>
+
+        <section class="section" id="quickstart">
+          <div class="section-heading">
+            <p class="section-kicker">快速开始</p>
+            <h2>如果你现在就想开始，先按这个节奏走。</h2>
+              <p class="section-lead">
+                不用一次学完全部方法。先理解一点，再拿真实项目练一点。
+              </p>
+          </div>
+          <div class="steps-grid">
+            <article class="step-card">
+              <span class="step-index">01</span>
+              <p class="step-kicker">Understand</p>
+              <h3>先理解，不要先依赖 AI</h3>
+              <p>先知道这个方法在解决什么问题，别把 AI 输出直接当答案。</p>
+            </article>
+            <article class="step-card">
+              <span class="step-index">02</span>
+              <p class="step-kicker">Structure</p>
+              <h3>再把 AI 当成结构化助手</h3>
+              <p>让 AI 帮你补结构、起草内容、整理思路。</p>
+            </article>
+            <article class="step-card">
+              <span class="step-index">03</span>
+              <p class="step-kicker">Practice</p>
+              <h3>最后用真实项目练手</h3>
+              <p>从你手头的需求或内容选题里选一个，直接套下面的模板。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="path">
+          <div class="section-heading">
+            <p class="section-kicker">学习路线</p>
+            <h2>从理论到实战，一步一步把框架吃透。</h2>
+            <p class="section-lead">
+              这四步就够了：先懂原理，再会用工具，再做项目，最后形成自己的方法。
+            </p>
+          </div>
+          <div class="path-grid">
+            <article class="path-card">
+              <div class="path-header">
+                <span class="path-badge">阶段 1</span>
+                <h3>理论基石</h3>
+              </div>
+              <p class="path-summary">先建立基本判断，知道为什么这样做。</p>
+              <ul>
+                <li>《持续发现习惯》</li>
+                <li>《启示录》《转型》</li>
+                <li>《正确的产品》《精益产品实战》</li>
+                <li>《玩转胜算》《商业模式新生代》《增长黑客》</li>
+              </ul>
+            </article>
+            <article class="path-card">
+              <div class="path-header">
+                <span class="path-badge">阶段 2</span>
+                <h3>工具部署</h3>
+              </div>
+              <p class="path-summary">把 AI 当成助手，而不是万能按钮。</p>
+              <ul>
+                <li>安装 Claude Desktop 或 Claude Code</li>
+                <li>添加插件仓库 `phuryn/pm-skills`</li>
+                <li>区分 Skills 与 `/Commands` 的触发方式</li>
+              </ul>
+            </article>
+            <article class="path-card">
+              <div class="path-header">
+                <span class="path-badge">阶段 3</span>
+                <h3>模块实战</h3>
+              </div>
+              <p class="path-summary">按问题类型反复练，先练高频，再慢慢扩展。</p>
+              <ul>
+                <li>发现</li>
+                <li>战略</li>
+                <li>执行</li>
+                <li>研究与分析</li>
+                <li>GTM 与增长</li>
+                <li>创作与复盘</li>
+              </ul>
+            </article>
+            <article class="path-card">
+              <div class="path-header">
+                <span class="path-badge">阶段 4</span>
+                <h3>综合进阶</h3>
+              </div>
+              <p class="path-summary">把这些方法用进日常工作，慢慢形成自己的风格。</p>
+              <ul>
+                <li>简历优化</li>
+                <li>法律文档起草</li>
+                <li>逻辑校对与表达修正</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="modules">
+          <div class="section-heading">
+            <p class="section-kicker">能力模块</p>
+            <h2>先知道“遇到什么问题，用哪种方法”。</h2>
+            <p class="section-lead">
+              先判断问题属于哪一类，再去学对应模块，会比乱看资料快很多。
+            </p>
+          </div>
+
+          <div class="module-shell">
+            <div class="module-toolbar">
+              <div class="module-toolbar-copy">
+                <p>点击卡片，看这个模块能帮你做什么。</p>
+                <span class="module-caption">建议先练“发现”“执行”“创作”或“分析”。</span>
+              </div>
+              <div class="module-tip">一次只练一个模块</div>
+            </div>
+
+            <div class="modules-grid" id="modules-grid"></div>
+
+            <div class="module-detail" id="module-detail">
+              <div class="module-detail-header">
+                <p class="detail-kicker">模块说明</p>
+                <h3 id="detail-title">持续产品发现</h3>
+              </div>
+              <p id="detail-summary"></p>
+
+              <div class="module-facts">
+                <article class="fact-chip">
+                  <span>适合阶段</span>
+                  <strong id="detail-best-for"></strong>
+                </article>
+                <article class="fact-chip">
+                  <span>典型产出</span>
+                  <strong id="detail-deliverable"></strong>
+                </article>
+              </div>
+
+              <div class="detail-columns">
+                <article class="detail-card">
+                  <h4>这个模块帮你</h4>
+                  <ul id="detail-problems"></ul>
+                </article>
+                <article class="detail-card">
+                  <h4>先做这 3 步</h4>
+                  <ul id="detail-actions"></ul>
+                </article>
+                <article class="detail-card">
+                  <h4>常用提示词 / 命令</h4>
+                  <ul id="detail-tools"></ul>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="scenarios">
+          <div class="section-heading">
+            <p class="section-kicker">项目模板</p>
+            <h2>下面这些内容可以直接复制到项目里使用。</h2>
+            <p class="section-lead">
+              如果你现在就要开工，直接选一个最接近的模板，复制后补上背景就行。
+            </p>
+          </div>
+
+          <div class="scenario-shell">
+            <div class="scenario-toolbar">
+              <label class="search-box" for="scenario-search">
+                <span>查找场景</span>
+                <input
+                  id="scenario-search"
+                  type="search"
+                  placeholder="例如：PRD、访谈、选题、脚本、封面、简介、合作"
+                  autocomplete="off"
+                />
+              </label>
+              <p class="scenario-helper" id="scenario-helper">先按分类选，再搜关键词。</p>
+            </div>
+
+            <div class="scenario-filters" id="scenario-filters"></div>
+            <div class="scenario-grid" id="scenario-grid"></div>
+          </div>
+        </section>
+
+        <section class="section" id="creator-lab">
+          <div class="section-heading">
+            <p class="section-kicker">创作方法</p>
+            <h2>短视频不是靠碰运气，而是靠一套能重复的内容系统。</h2>
+            <p class="section-lead">
+              最简单的理解方式就是 5 步：先定人群，再做选题，再写开头和脚本，然后发布，最后用数据复盘。
+            </p>
+          </div>
+
+          <div class="creator-board">
+            <div class="creator-framework">
+              <article class="creator-step">
+                <span class="creator-step-index">01</span>
+                <h3>定位</h3>
+                <p>先讲清拍给谁看、你讲什么、别人为什么要关注你。</p>
+                <ul>
+                  <li>目标人群</li>
+                  <li>内容主线</li>
+                  <li>人设与风格</li>
+                </ul>
+              </article>
+              <article class="creator-step">
+                <span class="creator-step-index">02</span>
+                <h3>选题</h3>
+                <p>不要每天临时想题，先积累选题库，再挑最值得拍的。</p>
+                <ul>
+                  <li>误区型</li>
+                  <li>清单型</li>
+                  <li>反差型</li>
+                </ul>
+              </article>
+              <article class="creator-step">
+                <span class="creator-step-index">03</span>
+                <h3>脚本</h3>
+                <p>一条内容至少要有开头钩子、核心观点和结尾动作。</p>
+                <ul>
+                  <li>前 3 秒抓人</li>
+                  <li>主体讲清一件事</li>
+                  <li>结尾引导互动</li>
+                </ul>
+              </article>
+              <article class="creator-step">
+                <span class="creator-step-index">04</span>
+                <h3>复盘</h3>
+                <p>看 3 秒留存、完播率、互动和涨粉，决定下一条怎么改。</p>
+                <ul>
+                  <li>开头留存</li>
+                  <li>中段掉人</li>
+                  <li>转粉与互动</li>
+                </ul>
+              </article>
+            </div>
+
+            <div class="creator-side-grid">
+              <article class="creator-panel">
+                <p class="creator-panel-kicker">爆款公式</p>
+                <h3>最常见的 4 种短视频切入法</h3>
+                <div class="formula-list">
+                  <p><strong>误区型：</strong>很多人以为 X，其实真正的问题是 Y。</p>
+                  <p><strong>清单型：</strong>教你 3 个方法、5 个步骤、7 个避坑点。</p>
+                  <p><strong>反差型：</strong>你以为这样更好，结果恰好相反。</p>
+                  <p><strong>案例型：</strong>拆一个真实案例，让观点更具体。</p>
+                </div>
+              </article>
+
+              <article class="creator-panel">
+                <p class="creator-panel-kicker">内容日历</p>
+                <h3>一个新账号一周内容节奏</h3>
+                <div class="calendar-grid">
+                  <span>周一：观点建立</span>
+                  <span>周二：误区拆解</span>
+                  <span>周三：案例分析</span>
+                  <span>周四：工具方法</span>
+                  <span>周五：清单总结</span>
+                  <span>周末：复盘与互动</span>
+                </div>
+              </article>
+
+              <article class="creator-panel">
+                <p class="creator-panel-kicker">爆款标题库</p>
+                <h3>先写 10 个标题，再选最能打的 3 个</h3>
+                <div class="title-library">
+                  <span>为什么你做了很多内容，却还是没人看</span>
+                  <span>新手做短视频，最容易踩的 3 个坑</span>
+                  <span>别再这样拍了，难怪完播率一直上不去</span>
+                  <span>我用 1 个方法，把短视频选题效率提高了 3 倍</span>
+                  <span>很多人都在学爆款，其实第一步就错了</span>
+                  <span>一个标题公式，帮你把普通内容变得更想点开</span>
+                  <span>做账号之前，一定先想清楚这 5 个问题</span>
+                  <span>同一个主题，为什么别人发就比你更容易爆</span>
+                </div>
+                <p class="title-note">最简单的标题思路：问题感、结果感、数字感、反差感。</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="platform-grid">
+            <article class="platform-card">
+              <p class="platform-name">抖音</p>
+              <h3>更吃开头冲击、情绪反差和快节奏</h3>
+              <p class="platform-summary">适合做强钩子、强情绪、强反差的内容，不适合慢热铺垫。</p>
+              <div class="platform-points">
+                <p><strong>适合：</strong>误区反转、观点输出、前后对比、结果展示。</p>
+                <p><strong>开头：</strong>前 3 秒先抛结论、冲突或结果，不要先讲背景。</p>
+                <p><strong>节奏：</strong>短句、快切、信息密度高，一条只讲一个重点。</p>
+                <p><strong>互动：</strong>评论区适合做“你属于哪种”“你踩过这个坑吗”这类二选一互动。</p>
+                <p><strong>误区：</strong>把 B 站式铺垫直接搬过来，开头太慢容易掉人。</p>
+              </div>
+            </article>
+            <article class="platform-card">
+              <p class="platform-name">小红书</p>
+              <h3>更吃经验感、搜索感和可保存</h3>
+              <p class="platform-summary">适合做“有用、可存、可照着做”的内容，比纯情绪表达更容易沉淀。</p>
+              <div class="platform-points">
+                <p><strong>适合：</strong>清单、步骤、避坑、经验总结、工具推荐。</p>
+                <p><strong>开头：</strong>先说用户能得到什么，比如“3 个方法”“新手避坑”。</p>
+                <p><strong>节奏：</strong>可以没那么快，但信息一定要清楚，封面和标题要像答案。</p>
+                <p><strong>互动：</strong>更适合引导收藏、点赞、留言“要不要继续更这一系列”。</p>
+                <p><strong>误区：</strong>只学抖音做情绪冲击，却没有实际信息密度，用户不会收藏。</p>
+              </div>
+            </article>
+            <article class="platform-card">
+              <p class="platform-name">B 站</p>
+              <h3>更吃完整表达、信息量和系列化</h3>
+              <p class="platform-summary">适合讲清楚一件事，用户愿意花更长时间看完，也更适合做系列内容。</p>
+              <div class="platform-points">
+                <p><strong>适合：</strong>案例拆解、方法讲解、深度观点、知识系列。</p>
+                <p><strong>开头：</strong>可以先交代背景和问题，但要尽快告诉用户这条视频会讲什么。</p>
+                <p><strong>节奏：</strong>允许更完整的表达，重点是层次清楚，不一定要特别短。</p>
+                <p><strong>互动：</strong>适合引导弹幕、评论讨论、追更系列和收藏复看。</p>
+                <p><strong>误区：</strong>把抖音式极短节奏照搬过来，反而会显得浅、信息不够。</p>
+              </div>
+            </article>
+            <article class="platform-card">
+              <p class="platform-name">视频号</p>
+              <h3>更吃信任感、熟人关系和转化闭环</h3>
+              <p class="platform-summary">适合专业分享、行业观点、真人表达和私域承接，比单纯追热点更看重信任。</p>
+              <div class="platform-points">
+                <p><strong>适合：</strong>专业观点、个人品牌、行业观察、服务型内容。</p>
+                <p><strong>开头：</strong>要先点明人群和问题，让用户觉得“这条内容就是写给我的”。</p>
+                <p><strong>节奏：</strong>可以更稳，但要更真诚、更像真人在说话，不要太像流水线脚本。</p>
+                <p><strong>互动：</strong>适合引导私信、关注、转发给朋友或进入微信生态继续了解。</p>
+                <p><strong>误区：</strong>只追平台流量感，不做信任承接，转化链路会很弱。</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="platform-compare">
+            <article class="compare-card">
+              <p class="compare-title">同一主题怎么改</p>
+              <div class="compare-list">
+                <p><strong>抖音：</strong>先讲最反常识的一句，再快速给结论。</p>
+                <p><strong>小红书：</strong>先讲“你能得到什么”，再做步骤和避坑。</p>
+                <p><strong>B 站：</strong>先交代问题背景，再完整拆清楚逻辑和案例。</p>
+                <p><strong>视频号：</strong>先点中人群和痛点，再自然承接信任和转化。</p>
+              </div>
+            </article>
+            <article class="compare-card">
+              <p class="compare-title">最简单的理解</p>
+              <div class="compare-tags">
+                <span>抖音看冲击</span>
+                <span>小红书看价值</span>
+                <span>B 站看深度</span>
+                <span>视频号看信任</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="playbook-section">
+            <div class="playbook-heading">
+              <p class="section-kicker">标题模板</p>
+              <h3>不同平台的爆款标题，不能一套文案到处发。</h3>
+              <p>同一个主题，在不同平台最有效的标题结构不一样。下面这些句式可以直接拿去改。</p>
+            </div>
+            <div class="playbook-grid">
+              <article class="playbook-card">
+                <p class="platform-name">抖音标题</p>
+                <h4>更吃反差、结果和情绪</h4>
+                <div class="playbook-lines">
+                  <p>别再【错误动作】了，难怪你一直【差结果】</p>
+                  <p>很多人都以为【常见认知】，其实真正关键是【反常识点】</p>
+                  <p>我用【1 个方法 / 3 步】，把【结果】提高了【具体数字】</p>
+                  <p>为什么你【做了某事】，却还是【没结果】</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">小红书标题</p>
+                <h4>更吃价值、清单和可保存</h4>
+                <div class="playbook-lines">
+                  <p>新手做【主题】，一定先学会这【3 / 5】个方法</p>
+                  <p>【人群】必看：关于【主题】最容易踩的【3】个坑</p>
+                  <p>一篇讲清【主题】：从入门到能直接上手</p>
+                  <p>如果你正在做【场景】，这份【清单 / 模板】建议先存下</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">B站标题</p>
+                <h4>更吃问题、深度和系列化</h4>
+                <div class="playbook-lines">
+                  <p>【主题】到底怎么做？我用【案例 / 拆解】讲清楚</p>
+                  <p>为什么很多人学了【主题】还是做不好</p>
+                  <p>从 0 到 1 讲透【主题】：原理、方法、案例一次说清</p>
+                  <p>【系列第 1 期】先把【主题】最核心的 3 件事讲明白</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">视频号标题</p>
+                <h4>更吃人群命中、观点和信任</h4>
+                <div class="playbook-lines">
+                  <p>给【某类人】一个提醒：做【主题】别先急着【动作】</p>
+                  <p>如果你也在做【主题】，这 3 个问题最好先想清楚</p>
+                  <p>这是我最近对【行业 / 主题】最真实的一个判断</p>
+                  <p>很多人问我【问题】，我统一讲讲我的做法</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="playbook-section">
+            <div class="playbook-heading">
+              <p class="section-kicker">互动话术</p>
+              <h3>评论区不是只用来求赞，更是放大讨论和承接转化的地方。</h3>
+              <p>下面把四个平台更自然的互动方式和转化句式拆开了，尽量避免一上来就太硬。</p>
+            </div>
+            <div class="playbook-grid">
+              <article class="playbook-card">
+                <p class="platform-name">抖音评论区</p>
+                <h4>适合快互动、轻转化</h4>
+                <div class="playbook-lines">
+                  <p><strong>互动：</strong>你更像哪一种？留言 1 或 2 我看下大家比例。</p>
+                  <p><strong>互动：</strong>你踩过这个坑吗？我想看下有多少人中招。</p>
+                  <p><strong>转化：</strong>如果你想看下一条，我继续拆【下一个问题】。</p>
+                  <p><strong>转化：</strong>主页我放了同系列内容，想系统看可以接着翻。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">小红书评论区</p>
+                <h4>适合收藏、补充和软承接</h4>
+                <div class="playbook-lines">
+                  <p><strong>互动：</strong>如果你也在做【主题】，可以留言“继续”，我再更下一篇。</p>
+                  <p><strong>互动：</strong>你最想补哪一部分？我按评论区需求继续写。</p>
+                  <p><strong>转化：</strong>这篇适合反复看，先存一下，后面做的时候直接翻。</p>
+                  <p><strong>转化：</strong>我把同系列都放在主页合集里了，想系统看可以直接点进去。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">B站评论区</p>
+                <h4>适合讨论、追更和系列沉淀</h4>
+                <div class="playbook-lines">
+                  <p><strong>互动：</strong>你更想看我继续拆案例，还是继续讲方法？评论区告诉我。</p>
+                  <p><strong>互动：</strong>如果你有不同观点，也欢迎在评论区补充，我们一起完善这个话题。</p>
+                  <p><strong>转化：</strong>这一期先讲到这里，下一期我继续拆【主题】里最难的一部分。</p>
+                  <p><strong>转化：</strong>如果你想系统看，这个系列我会持续更新在同一个合集里。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">视频号评论区</p>
+                <h4>适合建立信任和自然承接</h4>
+                <div class="playbook-lines">
+                  <p><strong>互动：</strong>如果你也正卡在这个问题，留言告诉我你的场景，我下次按真实问题继续讲。</p>
+                  <p><strong>互动：</strong>这条内容更像是给正在做【主题】的人一个提醒，你现在在哪个阶段？</p>
+                  <p><strong>转化：</strong>后面我会继续分享更具体的做法，关注一下，免得错过。</p>
+                  <p><strong>转化：</strong>如果你想看更完整的一套内容，我会继续放在后面的系列里慢慢讲。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="playbook-section">
+            <div class="playbook-heading">
+              <p class="section-kicker">封面文案</p>
+              <h3>封面不是重复标题，而是先把“为什么要点进来”说清楚。</h3>
+              <p>好的封面文案一般更短、更直接、更像结论。它的任务不是讲完整，而是让用户先停下来。</p>
+            </div>
+            <div class="playbook-grid">
+              <article class="playbook-card">
+                <p class="platform-name">抖音封面</p>
+                <h4>短、狠、结果先行</h4>
+                <div class="playbook-lines">
+                  <p>别再这样做了</p>
+                  <p>难怪你一直没结果</p>
+                  <p>3 步解决这个问题</p>
+                  <p>90% 的人都做错了</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">小红书封面</p>
+                <h4>有用、可存、像答案</h4>
+                <div class="playbook-lines">
+                  <p>新手先看这 5 条</p>
+                  <p>这份模板建议直接存</p>
+                  <p>一篇讲清入门方法</p>
+                  <p>做这件事先避开这 3 个坑</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">B站封面</p>
+                <h4>把问题讲完整一点</h4>
+                <div class="playbook-lines">
+                  <p>为什么你学了还是不会</p>
+                  <p>从 0 到 1 讲清楚</p>
+                  <p>这次把原理讲透</p>
+                  <p>一个案例看懂整件事</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">视频号封面</p>
+                <h4>更像提醒和观点</h4>
+                <div class="playbook-lines">
+                  <p>给正在做这件事的人一个提醒</p>
+                  <p>这 3 个问题要先想清楚</p>
+                  <p>这是我最近最真实的判断</p>
+                  <p>别急，先把这一步做对</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="playbook-section">
+            <div class="playbook-heading">
+              <p class="section-kicker">封面排版</p>
+              <h3>封面图排版的重点，不是堆满字，而是让用户 1 秒看懂重点。</h3>
+              <p>最稳妥的原则是：一句主信息，一个重点词，一眼能读完。平台不同，封面排版的密度也不一样。</p>
+            </div>
+            <div class="playbook-grid">
+              <article class="playbook-card">
+                <p class="platform-name">抖音封面图</p>
+                <h4>大字、强对比、少废话</h4>
+                <div class="playbook-lines">
+                  <p>主标题控制在 6 到 10 个字内</p>
+                  <p>优先把“结果 / 冲突 / 反差词”放大</p>
+                  <p>尽量只放 1 层主信息，不要做成 PPT</p>
+                  <p>人物表情、动作和关键词要形成同一重心</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">小红书封面图</p>
+                <h4>像答案、像清单、像可保存内容</h4>
+                <div class="playbook-lines">
+                  <p>主标题可以 2 行，但每行都要清楚</p>
+                  <p>适合加入“新手 / 3 步 / 模板 / 避坑”这类提示词</p>
+                  <p>封面要有明显信息分层，别所有字一样大</p>
+                  <p>宁可少一点设计，也不要牺牲可读性</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">B站封面图</p>
+                <h4>信息更完整，但仍要抓主次</h4>
+                <div class="playbook-lines">
+                  <p>主标题负责讲主题，副标题负责补价值</p>
+                  <p>适合加“案例 / 拆解 / 系列第几期”这类信息</p>
+                  <p>不要把所有信息挤在一个角落</p>
+                  <p>封面最好和视频内容一样有“系列感”</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">视频号封面图</p>
+                <h4>更稳、更像提醒和观点</h4>
+                <div class="playbook-lines">
+                  <p>封面文案适合做“提醒型”“判断型”表达</p>
+                  <p>不要太花，优先保证干净和可信感</p>
+                  <p>可以多用“给谁看”的人群词</p>
+                  <p>画面和文案都要更像真人表达，而不是硬营销</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="playbook-section">
+            <div class="playbook-heading">
+              <p class="section-kicker">3 秒钩子</p>
+              <h3>用户不是没耐心，而是你没有在前 3 秒告诉他为什么要继续看。</h3>
+              <p>下面这些开头句式适合拿来直接改，重点是先抛问题、结果、反差或身份认同。</p>
+            </div>
+            <div class="hook-wall">
+              <article class="hook-card">
+                <p class="platform-name">问题型</p>
+                <div class="playbook-lines">
+                  <p>为什么你做了这么久，还是没有结果？</p>
+                  <p>你是不是也卡在这个问题上很久了？</p>
+                  <p>很多人一开始就做错了第一步。</p>
+                </div>
+              </article>
+              <article class="hook-card">
+                <p class="platform-name">反差型</p>
+                <div class="playbook-lines">
+                  <p>很多人以为这样更好，其实恰好相反。</p>
+                  <p>你以为是内容不行，其实问题根本不在这。</p>
+                  <p>越努力越没结果，往往就是因为这个。</p>
+                </div>
+              </article>
+              <article class="hook-card">
+                <p class="platform-name">结果型</p>
+                <div class="playbook-lines">
+                  <p>我只改了一个点，结果直接差很多。</p>
+                  <p>这个方法帮我把效率提高了 3 倍。</p>
+                  <p>如果你也想更快拿到结果，先看这一步。</p>
+                </div>
+              </article>
+              <article class="hook-card">
+                <p class="platform-name">身份型</p>
+                <div class="playbook-lines">
+                  <p>如果你是新手，这条一定先看。</p>
+                  <p>做过这件事的人，一定知道这个坑有多大。</p>
+                  <p>给正在做【某件事】的人一个提醒。</p>
+                </div>
+              </article>
+              <article class="hook-card">
+                <p class="platform-name">清单型</p>
+                <div class="playbook-lines">
+                  <p>今天只讲 3 个最关键的点。</p>
+                  <p>新手最容易忽略的 3 个细节，我一次讲清。</p>
+                  <p>这份清单你可以直接照着做。</p>
+                </div>
+              </article>
+              <article class="hook-card">
+                <p class="platform-name">案例型</p>
+                <div class="playbook-lines">
+                  <p>我拿一个真实案例，带你看清楚为什么会这样。</p>
+                  <p>这个例子一出来，你就知道问题在哪了。</p>
+                  <p>别空讲原理，我们直接看真实案例。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="playbook-section">
+            <div class="playbook-heading">
+              <p class="section-kicker">直播与私域</p>
+              <h3>直播预告和私域承接的关键，不是喊用户来，而是先说清楚他来了能得到什么。</h3>
+              <p>下面把预告、开播和收尾的常用话术拆开，尽量用更自然的表达，不做硬推。</p>
+            </div>
+            <div class="playbook-grid">
+              <article class="playbook-card">
+                <p class="platform-name">直播预告</p>
+                <h4>先讲时间，再讲价值</h4>
+                <div class="playbook-lines">
+                  <p>今晚 8 点直播，我会把【主题】从头到尾讲清楚。</p>
+                  <p>如果你也卡在【问题】，今晚来直播间，我会直接拆给你看。</p>
+                  <p>这次直播我会讲 3 件最核心的事，适合新手直接来补课。</p>
+                  <p>不是泛聊，我会带着案例讲，来的人可以直接拿走方法。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">开播话术</p>
+                <h4>先拉近关系，再给预期</h4>
+                <div class="playbook-lines">
+                  <p>刚进来的朋友先别急着走，今天这场我主要讲【主题】。</p>
+                  <p>如果你正在做【场景】，今天这场会比较有用，我先把框架讲清楚。</p>
+                  <p>后面我会用一个真实案例带大家拆，所以先留几分钟听完开头。</p>
+                  <p>有问题可以直接打在评论区，我会边讲边看。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">私域承接</p>
+                <h4>更自然地引导下一步</h4>
+                <div class="playbook-lines">
+                  <p>如果你想继续系统看，我后面会把这一系列继续整理出来。</p>
+                  <p>想看更完整版本的，可以先关注，后面的内容我会接着更。</p>
+                  <p>如果你更想看实操版，我后面会继续放具体案例和模板。</p>
+                  <p>今天先把最核心的讲完，剩下更细的部分我会在后续内容里继续拆。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">收尾转化</p>
+                <h4>别硬推，先做轻承接</h4>
+                <div class="playbook-lines">
+                  <p>今天先讲到这里，想看下一部分的可以留言，我按需求继续讲。</p>
+                  <p>如果这场对你有帮助，先点个关注，后面我继续把这一套讲完整。</p>
+                  <p>你最想让我下一场拆哪一块，评论区告诉我，我按真实问题来安排。</p>
+                  <p>先别急着走，回头把今天的几个关键点记一下，后面你会用得上。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="playbook-section">
+            <div class="playbook-heading">
+              <p class="section-kicker">账号简介</p>
+              <h3>一个好的账号简介，不是介绍自己，而是让别人 3 秒知道“为什么要关注你”。</h3>
+              <p>最稳的结构通常是：我是谁 + 我帮谁 + 我持续分享什么 + 为什么值得关注。</p>
+            </div>
+            <div class="playbook-grid">
+              <article class="playbook-card">
+                <p class="platform-name">定位型简介</p>
+                <div class="playbook-lines">
+                  <p>我是【身份 / 角色】，专门分享【主题】。</p>
+                  <p>这里持续更新【内容方向】，适合【目标人群】。</p>
+                  <p>关注我，带你少走弯路。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">结果型简介</p>
+                <div class="playbook-lines">
+                  <p>帮你更快搞定【目标结果】。</p>
+                  <p>这里分享【方法 / 工具 / 案例】。</p>
+                  <p>适合正在做【场景】的人。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">陪伴型简介</p>
+                <div class="playbook-lines">
+                  <p>我也在持续做【主题】，这里记录真实过程。</p>
+                  <p>会分享踩坑、方法和复盘。</p>
+                  <p>适合想一起成长的人。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">专业型简介</p>
+                <div class="playbook-lines">
+                  <p>【职业 / 从业年限 / 领域】。</p>
+                  <p>长期分享【专业方向】的实操经验。</p>
+                  <p>希望把复杂问题讲得更简单。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="playbook-section">
+            <div class="playbook-heading">
+              <p class="section-kicker">商务合作</p>
+              <h3>商业合作和报价话术的关键，不是报一个数字，而是先讲清合作范围、交付内容和边界。</h3>
+              <p>最自然的表达方式通常是：先确认需求，再给合作方式，最后给报价和补充说明。</p>
+            </div>
+            <div class="playbook-grid">
+              <article class="playbook-card">
+                <p class="platform-name">初次回复</p>
+                <div class="playbook-lines">
+                  <p>感谢联系，我先了解一下这次合作的产品、目标和发布时间。</p>
+                  <p>如果方便的话，也可以先发下合作需求和预期形式，我这边评估后回复你。</p>
+                  <p>我通常会先看是否匹配账号内容，再决定怎么合作更自然。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">报价表达</p>
+                <div class="playbook-lines">
+                  <p>这次如果按【合作形式】来做，报价区间会在【数字】左右。</p>
+                  <p>这个报价通常包含【脚本 / 拍摄 / 发布 / 修改次数】这些部分。</p>
+                  <p>如果交付范围有变化，我也可以再按实际内容调整。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">边界说明</p>
+                <div class="playbook-lines">
+                  <p>我更适合合作【内容类型】，不太接【不匹配类型】。</p>
+                  <p>如果需要强硬口播或与账号调性差距太大，我一般不会硬接。</p>
+                  <p>我会优先考虑和现有内容风格一致、用户也更容易接受的合作方式。</p>
+                </div>
+              </article>
+              <article class="playbook-card">
+                <p class="platform-name">婉拒话术</p>
+                <div class="playbook-lines">
+                  <p>感谢邀请，这次合作方向和我当前内容规划不太匹配，我就先不硬接了。</p>
+                  <p>我更希望每次合作都和账号调性保持一致，所以这次先不接，感谢理解。</p>
+                  <p>如果后面有更贴近【主题】的合作，也欢迎再联系我。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="learn">
+          <div class="section-heading">
+            <p class="section-kicker">学习提醒</p>
+            <h2>记住这 3 句就够了。</h2>
+            <p class="section-lead">
+              这三句简单，但几乎决定了你会不会把工具用对。
+            </p>
+          </div>
+          <div class="warning-grid">
+            <article class="warning-card">
+              <span class="warning-index">01</span>
+              <h3>不要只会下命令</h3>
+              <p>不理解目标和用户，AI 只能给你一份看起来完整的草稿。</p>
+            </article>
+            <article class="warning-card">
+              <span class="warning-index">02</span>
+              <h3>不要让 AI 替你做判断</h3>
+              <p>AI 很会补结构，但最后做取舍的人还是你。</p>
+            </article>
+            <article class="warning-card">
+              <span class="warning-index">03</span>
+              <h3>不要脱离真实项目练习</h3>
+              <p>最好的学习方式不是背框架，而是拿真实需求跑一遍。</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>PM Skills Playground 现在更适合当作新手入门页和项目模板库来用。</p>
+        <a href="#top">回到顶部</a>
+      </footer>
+    </div>
+
+    <template id="scenario-template">
+      <article class="scenario-card">
+        <div class="scenario-meta">
+          <span class="scenario-tag"></span>
+          <span class="scenario-level"></span>
+        </div>
+        <h3 class="scenario-title"></h3>
+        <p class="scenario-description"></p>
+        <div class="scenario-lines">
+          <p><strong>适用时机：</strong><span class="scenario-when"></span></p>
+          <p><strong>典型产出：</strong><span class="scenario-output"></span></p>
+          <p><strong>推荐命令：</strong><code class="scenario-command"></code></p>
+        </div>
+        <div class="prompt-box" hidden>
+          <p class="prompt-label">可直接复制的提示词</p>
+          <pre class="prompt-content"></pre>
+        </div>
+        <div class="scenario-actions">
+          <button class="preview-button" type="button">展开模板</button>
+          <button class="copy-button" type="button">复制模板</button>
+        </div>
+      </article>
+    </template>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
